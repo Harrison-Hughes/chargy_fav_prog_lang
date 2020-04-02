@@ -1,0 +1,2 @@
+class GitHubUser < ApplicationRecord
+end
