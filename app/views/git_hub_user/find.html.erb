@@ -1,0 +1,8 @@
+<h1>favourite programming language</h1>
+<h4>please enter the username of the github profile below</h4>
+<div>
+  <%= form_for @git_hub_user do |f| %>
+    username : <%= f.text_field :username %>
+    <%= f.submit "search" %>
+  <% end %>
+</div>
