@@ -43,20 +43,6 @@ class GitHubUserController < ApplicationController
     end 
   end 
 
-
-  # TRY THIS IF ABOVE WORKS
-
-  # def create
-  #   if GitHubUser.user_exists(username)
-  #     @user = User.new(user_params)
-  #     @user.favourite_language = @user.fav_prog_lang
-  #     if @user.save
-  #       redirect_to user_path(@user)
-  #     end
-  #   end 
-  #   render :find
-  # end 
-  
   private
 
     def git_hub_user_params
