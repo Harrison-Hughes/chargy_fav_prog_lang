@@ -1,5 +1,8 @@
 <h2>results</h2>
 
-<h4>user <%=@git_hub_user.username%>'s favourite language is <%=@git_hub_user.favourite_language%></h4>
-
+<% if @git_hub_user.favourite_language == nil %>
+  <h4>user <%=@git_hub_user.username%> has no favourite language</h4>
+<% else %>
+  <h4>user <%=@git_hub_user.username%>'s favourite language is <%=@git_hub_user.favourite_language%></h4>
+<% end %>
 <p><%= link_to "thanks", :root %></p>
