@@ -1,24 +1,9 @@
-# README
+# favourite programming language
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To operate:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- simply clone this repository
+- run rails db:migrate, then rails s
+- navigate to localhost:3000 in your browser of choice
+- enter the username of any github user into the searchbar
+- hit enter 😊
